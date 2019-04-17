@@ -1,0 +1,23 @@
+/*Arquivo para configurar os estilos do app*/
+
+.navbar {
+    background-color: rgb(192, 204, 218);
+    color: white;
+}
+.login {
+    margin: 5%;
+}
+.cadastro {
+    margin: 5%;
+}
+.btn {
+    height: calc(1.5em + .75rem + 2px);
+    margin-top: 1.5rem;
+}
+.homepage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 82%;
+}
