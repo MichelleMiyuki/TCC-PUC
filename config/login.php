@@ -11,8 +11,8 @@ if(empty($_POST['email']) || empty($_POST['senha'])) {
 }
 
 //Guarda o email e senha digitados pelo usuário em variaveis
-$email = mysqli_real_escape_string($conexao, $_POST['email']);
-$senha = mysqli_real_escape_string($conexao, $_POST['senha']);
+$email = $_POST['email'];
+$senha = $_POST['senha'];
 
 //Verifica se o email digitado está cadastrado no banco de dados
 $query = mysqli_query($conexao, "SELECT * FROM usuario WHERE email = '$email'");
